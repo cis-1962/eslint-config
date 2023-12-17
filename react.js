@@ -12,6 +12,11 @@ module.exports = {
   env: {
     browser: true,
   },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     // typescript rules
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
