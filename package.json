@@ -1,6 +1,6 @@
 {
   "name": "@cis-1962/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config used to grade CIS-1962 assignments",
   "files": [
     "base.js",
@@ -19,16 +19,19 @@
   },
   "homepage": "https://github.com/cis-1962/eslint-config#readme",
   "devDependencies": {
-    "@types/eslint": "^8.44.9",
+    "@types/eslint": "^8.44.9"
+  },
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-unicorn": "^49.0.0",
-    "prettier": "^3.1.1"
+    "eslint-plugin-unicorn": "^49.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
   }
 }
