@@ -1,6 +1,6 @@
 {
   "name": "@cis-1962/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint config used to grade CIS-1962 assignments",
   "files": [
     "base.js",
@@ -25,6 +25,7 @@
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^49.0.0"
