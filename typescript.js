@@ -4,6 +4,7 @@ module.exports = {
   extends: ['./base', 'plugin:@typescript-eslint/recommended', 'prettier'],
   env: {
     node: true,
+    es6: true,
   },
   rules: {
     // typescript rules

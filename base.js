@@ -2,6 +2,9 @@
 module.exports = {
   extends: ['eslint:recommended'],
   plugins: ['unicorn'],
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
   rules: {
     // eslint base rules
     'no-lonely-if': 'error',

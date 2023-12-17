@@ -4,6 +4,7 @@ module.exports = {
   extends: ['./base', 'prettier'],
   env: {
     node: true,
+    es6: true,
   },
   ignorePatterns: ['node_modules/', '.*.js'],
 };
