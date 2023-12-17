@@ -1,0 +1,33 @@
+{
+  "name": "@cis-1962/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config used to grade CIS-1962 assignments",
+  "files": [
+    "node.js",
+    "typescript.js",
+    "react.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cis-1962/eslint-config.git"
+  },
+  "author": "printer83mph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cis-1962/eslint-config/issues"
+  },
+  "homepage": "https://github.com/cis-1962/eslint-config#readme",
+  "devDependencies": {
+    "@types/eslint": "^8.44.9",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unicorn": "^49.0.0",
+    "prettier": "^3.1.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
