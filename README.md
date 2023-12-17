@@ -27,3 +27,19 @@ module.exports = {
   },
 };
 ```
+
+For a React (with TypeScript) project:
+
+```js
+// .eslintrc.js
+
+/** @type {import('eslint').Linter.Config} */
+module.exports = {
+  root: true,
+  extends: ['eslint-config-cis1962/react'],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: true,
+  },
+};
+```
