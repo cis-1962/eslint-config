@@ -5,6 +5,11 @@ module.exports = {
   rules: {
     // eslint base rules
     'no-lonely-if': 'error',
+    eqeqeq: 'error',
+    'prefer-const': 'error',
+    'no-var': 'error',
+    'prefer-template': 'error',
+    'prefer-arrow-callback': 'error',
     'no-alert': 'warn',
     'no-console': 'warn',
     'consistent-return': 'off',
