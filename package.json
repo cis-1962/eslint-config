@@ -1,8 +1,9 @@
 {
   "name": "@cis-1962/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config used to grade CIS-1962 assignments",
   "files": [
+    "base.js",
     "node.js",
     "typescript.js",
     "react.js"
