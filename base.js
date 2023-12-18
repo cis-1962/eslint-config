@@ -15,6 +15,7 @@ module.exports = {
     'prefer-arrow-callback': 'error',
     'no-alert': 'warn',
     'no-console': 'warn',
+    'no-unused-vars': 'warn',
     'consistent-return': 'off',
 
     // unicorn
