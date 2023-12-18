@@ -1,10 +1,12 @@
 # CIS-1962 ESLint config
 
-To use our config in a plain Node.js project:
+![npm](https://img.shields.io/npm/v/%40cis-1962%2Feslint-config)
+
+## Usage
+
+For a plain Node.js project, use the following `.eslintrc.js`:
 
 ```js
-// .eslintrc.js
-
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   root: true,
@@ -15,8 +17,6 @@ module.exports = {
 For a TypeScript project:
 
 ```js
-// .eslintrc.js
-
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   root: true,
@@ -31,8 +31,6 @@ module.exports = {
 For a React (with TypeScript) project:
 
 ```js
-// .eslintrc.js
-
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   root: true,
