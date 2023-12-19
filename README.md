@@ -1,6 +1,6 @@
 # CIS-1962 ESLint config
 
-[![https://www.npmjs.com/package/@cis-1962/eslint-config](https://img.shields.io/npm/v/%40cis-1962%2Feslint-config)]()
+[![](https://img.shields.io/npm/v/%40cis-1962%2Feslint-config)](https://www.npmjs.com/package/@cis-1962/eslint-config)
 
 
 ## Usage
