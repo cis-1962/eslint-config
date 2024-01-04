@@ -7,6 +7,9 @@ module.exports = {
     es6: true,
   },
   rules: {
+    // base rules in typescript
+    '@typescript-eslint/no-unused-vars': 'warn',
+
     // typescript rules
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
     '@typescript-eslint/no-non-null-assertion': 'off',
